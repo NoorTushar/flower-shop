@@ -1,0 +1,11 @@
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  line-height: 30px; /* 166.667% */
+}
+
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
