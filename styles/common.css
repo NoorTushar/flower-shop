@@ -12,6 +12,7 @@
 }
 
 img {
+  width: 100%;
   max-width: 100%;
 }
 
@@ -45,17 +46,34 @@ body {
 }
 
 .primary-button {
-  border: none;
-  background: var(--primary);
   padding: 20px 43px;
-  border-radius: 8px;
-
+  border: 1px solid var(--primary);
+  background: var(--primary);
   color: #fff;
-
+  cursor: pointer;
   font-size: 20px;
   font-weight: 700;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: 0.3;
+  -webkit-transition: 0.3;
+  -moz-transition: 0.3;
+  -ms-transition: 0.3;
+  -o-transition: 0.3;
+}
+.primary-button:hover {
+  background-color: white;
+  border: 1px solid var(--primary);
+  color: var(--primary);
 }
 
+.section-intro {
+  max-width: 600px;
+  margin: 0 auto;
+}
 .section-title {
   color: #272727;
   text-align: center;

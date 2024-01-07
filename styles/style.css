@@ -32,3 +32,8 @@ header {
   width: 44%;
   max-width: 635px;
 }
+
+/* Feature Section */
+.feature-section {
+  padding: 100px 0;
+}
